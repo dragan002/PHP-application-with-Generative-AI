@@ -34,6 +34,8 @@
     if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["fileToUpload"])) {
         validateUploadImage( $_FILES["fileToUpload"]);
     }
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
